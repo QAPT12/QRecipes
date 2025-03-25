@@ -4,15 +4,23 @@
     --shadow: rgba(0, 0, 0, 0.1);
 }
 
+.body-content{
+    background-color: var(--off-white);
+    margin:2em 2em 5em;
+    padding:0.5em;
+    border-bottom: 0.5px solid var(--border-gray);
+    box-shadow: 0 2px 5px var(--shadow);
+    border-radius: 10px;
+    
+}
 /* Nav Bar */
 
 /* using bootstrap default classes overrides this. uncomment and change nav bar class to customize */
-/* .navbar{
-    background-color: #ffffff;
+.navbar{
     border-bottom:solid 0.5px var(--border-gray);
     box-shadow: 0 2px 5px var(--shadow);
     padding: 1rem 3rem;
-} */
+}
 
 .navbar-brand{
     font-size: 3rem;
