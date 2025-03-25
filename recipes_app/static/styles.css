@@ -5,12 +5,14 @@
 }
 
 /* Nav Bar */
-.navbar{
-    background-color: #FFFFFF;
+
+/* using bootstrap default classes overrides this. uncomment and change nav bar class to customize */
+/* .navbar{
+    background-color: #ffffff;
     border-bottom:solid 0.5px var(--border-gray);
     box-shadow: 0 2px 5px var(--shadow);
     padding: 1rem 3rem;
-}
+} */
 
 .navbar-brand{
     font-size: 3rem;
